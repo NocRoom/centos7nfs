@@ -23,4 +23,5 @@ echo "/home/nfs *(rw,sync,no_root_squash,no_all_squash)" >> /etc/exports
 echo -n "Restarting Services ......";
 service nfs restart >/dev/null 2>&1
 echo -n "Installing all updates, this may take a few minutes ......";
-yum update -y >/dev/null 2>&1; echo "All done. enjoy and please visit NocRoom.com for any server voip email colocation needs";
+yum update -y >/dev/null 2>&1
+echo "All done. enjoy and please visit NocRoom.com for any server voip email colocation needs";
