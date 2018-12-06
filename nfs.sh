@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 echo -n "Installing NFS by NocRoom.com ......";
 yum install nfs-utils nfs-utils-lib nano -y >/dev/null 2>&1
 echo -n "Installing auto boot for NFS  ......";
